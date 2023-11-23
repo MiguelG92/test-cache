@@ -7,7 +7,7 @@ const config = {
   url: '',
   host: '10.217.4.115',
   port: 6379,
-  password: 'ojjlt7x4NghCRdQN',
+  password: '123456789',
   db: 0
 };
 
