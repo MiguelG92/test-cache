@@ -12,7 +12,11 @@ const config = {
 };
 
 
+
+
 function updateConfig(dsConfig: AnyObject) {
+  console.log(process.env.OPENSHIFT_SERVICE_HOST);
+  console.log(process.env.KUBERNETES_SERVICE_HOST);
   if (process.env.OPENSHIFT_SERVICE_HOST) {
     dsConfig.host = process.env.SHOPPING_APP_REDIS_MASTER_SERVICE_HOST;
     console.log(process.env.SHOPPING_APP_REDIS_MASTER_SERVICE_HOST);
