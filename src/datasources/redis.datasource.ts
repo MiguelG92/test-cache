@@ -5,9 +5,9 @@ const config = {
   name: 'redis',
   connector: 'kv-redis',
   url: '',
-  host: '10.217.5.239',
+  host: '127.0.0.1',
   port: 6379,
-  password: '123456789',
+  password: '',
   db: 0
 };
 
